@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main{
+    display:flex;
+flex-direction: row;
+}
+.side-bar{
+    background-color: #3f0e40;
+    padding-left:16px;
+    color: gray;
+}
+.intro input{
+    border:1px solid gray;
+   padding: 5px 10px;
+}
+.side-bar a{
+    text-decoration: none;
+    color:gray;
+}
+.side-bar li{
+    list-style-type: none;
+    margin-left:10px;
+}
+.content{
+    width:100%;
+}
+
+.headContainer{
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row;
+}
