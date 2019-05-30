@@ -8,17 +8,31 @@
 </head>
 
 <body>
-
     <!-- menu -->
     <div class="main">
         <div class="side-bar">
             <div class="intro">
-                <h1>tk-2019</h1>
-                <h3>Arifa-chouhdry</h3>
-                <input type="search" value="jumpto" width="20">
+                <div class="tk">
+                    <h3>tk-2019
+                        <i class="fas fa-chevron-down"></i>
+                    </h3>
+
+                    <i class="far fa-bell"></i>
+                </div>
+                <div class="status">
+
+                    <h4>
+                        <i class="fas fa-circle"></i> Arifa-chouhdry
+                    </h4>
+                </div>
+                <div class="jumpto">
+                    <i class="fab fa-sistrix"></i>
+                    <input type="search" placeholder="jumpto" width="20">
+                </div>
             </div>
-            <div>
+            <div class="threasd">
                 <h3>threads</h3>
+
             </div>
             <div>
                 <h3>channels</h3>
@@ -26,16 +40,16 @@
             <div>
                 <ul>
                     <a>
-                        <li><i class="fas fa-hashtag">attendence</i></li>
+                        <li><i class="fas fa-hashtag"></i>attendence</li>
                     </a>
                     <a href="">
-                        <li><i class="fas fa-hashtag"></i>chat</i></li>
+                        <li><i class="fas fa-hashtag"></i>chat</li>
                     </a>
                     <a href="">
-                        <li><i class="fas fa-hashtag"></i>class resource</i></li>
+                        <li><i class="fas fa-hashtag"></i>class resource</li>
                     </a>
                     <a href="">
-                        <li><i class="fas fa-hashtag"></i>freecodecamp</i></li>
+                        <li><i class="fas fa-hashtag"></i>freecodecamp</li>
                     </a>
                     <a href="">
                         <li><i class="fas fa-hashtag"></i>life skills</li>
@@ -44,13 +58,13 @@
                         <li><i class="fas fa-hashtag"></i>mentor meetups</li>
                     </a>
                     <a href="">
-                        <li><i class="fas fa-hashtag"></i>noreengroup</li>
+                        <li><i class="fas fa-lock"></i>noreengroup</li>
                     </a>
                     <a href="">
                         <li><i class="fas fa-hashtag"></i> showcase</li>
                     </a>
                     <a href="">
-                        <li><i class="fas fa-hashtag"></i>tk-girls</li>
+                        <li><i class="fas fa-lock"></i>tk-girls</li>
                     </a>
                     <a href="">
                         <li><i class="fas fa-hashtag"></i>web-dev</li>
@@ -58,79 +72,175 @@
                 </ul>
             </div>
             <div>
-                <h3>direct masseges</h3>
+                <h3>direct masseges<i class="fas fa-plus-circle"></i></h3>
             </div>
             <div>
                 <ul>
                     <a href="">
-                        <li>slackbot</li>
+
+                        <li>
+                            <i class="fas fa-heart"></i> slackbot
+                            <i class="far fa-times-circle"></i>
+                        </li>
                     </a>
                     <a href="">
-                        <li></i>Arifa chouhdry (you)</li>
+                        <li> <i class="fas fa-circle" id="online"></i>Arifa chouhdry
+                            <i class="far fa-times-circle" id="cross"></i>
+                        </li>
                     </a>
                     <a href="">
-                        <li>Noreen naz</li>
+                        <li><i class="fas fa-circle"></i>Noreen naz
+                            <i class="far fa-times-circle"></i>
+                        </li>
                     </a>
                     <a href="">
-                        <li>Sarah Ahmed</li>
+                        <li><i class="fas fa-circle"></i>Sarah Ahmed
+                            <i class="far fa-times-circle" id="cross"></i>
+                        </li>
                     </a>
                     <a href="">
-                        <li>Tuba mohsin</li>
+                        <li><i class="fas fa-circle"></i>Tuba mohsin
+                            <i class="far fa-times-circle"></i>
+                        </li>
                     </a>
 
                 </ul>
                 <div>
-                    <h3>apss</h3>
-                </div>
-                <div>
-                    <ul>
-                        <a href="">
-                            <li>connect google drive</li>
-                        </a>
-                        <a href="">
-                            <li>Add apps</li>
-                        </a>
-                    </ul>
+                    <h3>apps<i class="fas fa-plus-circle"></i></h3>
+
+                    <div>
+                        <ul>
+                            <a href="">
+                                <li>+ connect google
+                                    <i class="far fa-times-circle" id="cross"></i>
+                                </li>
+                            </a>
+                            <a href="">
+                                <li>+ Add apps</li>
+                            </a>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-
         <!-- page content -->
         <div class="content">
 
             <div class="headContainer">
-                <div>
-                    <h4>annoucements</h4>
+                <div class="header-rs">
+                    <h4>#annoucements</h4>
+                    <span>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-user">116</i>
+                        <i class="fas fa-thumbtack">1</i>
+                        <i class="fas fa-pencil-alt"></i>
+                    </span>
                 </div>
-                <div>
-                    <input type="text" value="search" />
+                <div id="left-side">
+                    <i class="fas fa-phone"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-cog"></i>
+                    </span>
+                    <span class="search-bar">
+                        <i class="fas fa-search"></i>
+                        <input type="search" placeholder="Search">
+                    </span>
+                    <span>
+                        <i class="fas fa-at"></i>
+                        <i class="far fa-star"></i>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </span>
+
+
                 </div>
+
+
+
+
             </div>
 
             <main>
-                <div>
-                    <h3>there is more to conversation in #announcements</h3>
+                <div class="history-update">
+
+                    <h3><i class="far fa-comment-dots"></i>There is more to conversation in #announcements</h3>
                     <p>to see and search the channel full history upgrade to one of our pade plans</P>
                     <button>learn more</button>
                 </div>
-                <div>
-                    <img src="capture.png" alt="image">
-                    <h4>sarah ahmed</h4>
-                    <p>please don't forget to bring your mentor meetups project today</p>
+                <fieldset>
+                    <legend>thursday,april,25th</legend>
+                </fieldset>
 
+                <div class="cmnt1">
+                    <div class="p-img">
+                        <img src="capture.png" alt="image" width="50px">
+                        <h4>sarah ahmed</h4>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    </p>
+                    <p class="check">
+                        <i class="fas fa-check"></i> 1
+                    </p>
                 </div>
 
-                <div><img src="anika.png" alt="img">
-                    <p>ok miss.</p>
+                <div class="cmnt1">
+                    <div class="p-img">
+                        <img src="capture.png" alt="img" width="60px">
+                        <h4>Anika</h4>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    </p>
+
+                    <img src="emogi.PNG" alt="img" width="60px">
                 </div>
+                <fieldset>
+                    <legend>friday,april,26th</legend>
+                </fieldset>
+                <div class="cmnt1">
+                    <div class="p-img">
+                        <img src="capture.png" alt="img" width="60px">
+                        <h4>Fahmeen</h4>
+
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    </p>
+                    <div class="lorem">
+                        <img src="cap2.PNG" alt="img" width="90px">
+                        <p>view reply</p>
+                        <p id="detail">
+                            last reply 1 day ago
+                        </p>
+                    </div>
+                </div>
+                <div class="cmnt1">
+                    <div class="p-img">
+                        <img src="capture.png" alt="img" width="60px">
+                        <h4>Sofia</h4>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    </p>
+                </div>
+
+                <fieldset>
+                    <legend>saturday,april,27th</legend>
+                </fieldset>
             </main>
-
-            <button>+</button>
-            <input type="text" value="message #announcements">
-
+            <footer>
+                <span>
+                    <button> + </button>
+                    <input type="text" value="message #announcements">
+                </span>
+                <span class="msg-icon">
+                    <i class="fas fa-at"></i>
+                     <i class="far fa-smile"></i>
+                 </span>
+            </footer>
 
         </div>
-
+    </div>
 </body>
 
 </html>

@@ -1,36 +1,282 @@
-body{
+body {
     margin: 0;
-    padding:0;
+    padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
 
-.main{
-    display:flex;
-flex-direction: row;
-}
-.side-bar{
-    background-color: #3f0e40;
-    padding-left:16px;
-    color: gray;
-}
-.intro input{
-    border:1px solid gray;
-   padding: 5px 10px;
-}
-.side-bar a{
-    text-decoration: none;
-    color:gray;
-}
-.side-bar li{
-    list-style-type: none;
-    margin-left:10px;
-}
-.content{
-    width:100%;
+.main {
+    display: flex;
+    flex-direction: row;
 }
 
-.headContainer{
+.side-bar {
+    background-color: #3f0e40;
+    padding-left: 16px;
+    color: gray;
+}
+
+.tk {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fa-bell {
+    margin-top: 20px;
+    padding-right: 10px;
+    font-size: 24px;
+}
+
+.status i {
+    color: green;
+}
+
+.jumpto {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background: #5c135e;
+}
+
+.jumpto input {
+    background: #7c1880;
+}
+
+.jumpto i {
+    padding: 4px;
+}
+
+
+/* .threasd{
     display:flex;
-    justify-content:space-between;
-    flex-direction:row;
+flex-direction: row;
+justify-content: space-between;
+} */
+
+.fa-plus-circle {
+    margin-left: 25px;
+}
+
+
+/* .threasd i{
+    padding: 21px 22px 14px 13px;
+} */
+
+.fa-heart {
+    color: green;
+}
+
+#online {
+    color: green;
+}
+
+.intro input {
+    border: 1px solid gray;
+    padding: 5px 10px;
+}
+
+.side-bar a {
+    text-decoration: none;
+    color: gray;
+}
+
+.side-bar li {
+    list-style-type: none;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+.side-bar ul {
+    padding: 10px;
+}
+
+.side-bar:hover {
+    color: white;
+}
+
+.fa-times-circle {
+    margin-left: 2em;
+    display: none;
+}
+
+#cross {
+    margin-left: 1em;
+    display: none;
+}
+
+li:hover .fa-times-circle {
+    display: inline-block;
+}
+
+li:hover #cross {
+    display: inline-block;
+}
+
+.side-bar ul li:hover {
+    color: white;
+    background-color: rgb(10, 141, 202);
+    font-weight: bold;
+}
+
+.content {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.fa-user {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    margin: 0px 4px;
+    padding: 0px 2px;
+}
+
+.fa-thumbtack {
+    border-right: 1px solid gray;
+    padding: 0px 2px;
+}
+
+.search-bar {
+    border: 1px solid gray;
+    background: white;
+    padding: 8px 10px 8px 10px;
+    border-radius: 10px;
+    color: gray;
+}
+
+.header-rs i {
+    color: gray;
+}
+
+#left-side i {
+    color: gray;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+}
+
+.headContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+#left-side {
+    margin-top: 52px;
+}
+
+#hash {
+    padding-left: 20px;
+}
+
+.history-update {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgb(214, 207, 207);
+    background-color: rgb(247, 247, 247);
+}
+
+.history-update button {
+    border: none;
+    background-color: rgb(12, 156, 12);
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+fieldset {
+    text-align: center;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.cmnt1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.lorem {
+    display: flex;
+}
+
+.lorem p {
+    margin: 4px 10px;
+}
+
+#detail {
+    color: grey;
+    font-size: 10px;
+    margin-top: 9px;
+}
+
+.check {
+    border-radius: 20px;
+    width: 40px;
+    background: beige;
+    font-size: 1.5em;
+    padding: 3px 10px;
+}
+
+.fa-check {
+    color: green;
+}
+
+.p-img {
+    display: flex;
+}
+
+footer span input {
+    border: none;
+    outline: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 1em;
+    border: 1px solid gray;
+    background: white;
+    border-radius: 10px;
+}
+
+footer span button {
+    font-size: 36px;
+    font-weight: thin;
+    border-right: 1px s0lid gray;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.msg-icon {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer {
+        display: flex;
+        position: sticky;
+    }
+    .side-bar {
+        display: none;
+    }
 }
